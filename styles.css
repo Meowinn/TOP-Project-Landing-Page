@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+   padding: 20px;
+}
+
+img {
+    height: 220px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
