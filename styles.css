@@ -11,49 +11,45 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 405px;
-    background-color: #1F2937;
+    gap: 430px;
+    background-color: #866683;
     padding: 20px 0px;
-   
+ 
 }
+
+
+
 
 img {
 
     height: 250px;
-    width: 500px;
+    width: 420px;
 
 }
 
 .btn {
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
     -webkit-border-radius: 9;
     -moz-border-radius: 9;
     border-radius: 9px;
-    font-family: Arial;
+    font-family: 'roboto', sans-serif;
     color: #ffffff;
-    font-size: 18px;
-    padding: 7px 15px 7px 15px;
-    border: solid #1f628d 0px;
+    font-size: 20px;
+    background: #be17ab;
+    padding: 10px 21px 10px 20px;
+    border: solid #f2f2f2 0px;
     text-decoration: none;
-    width: 150px
-    
+    width: 150px;
   }
   
   .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    background: #f503e5;
+    background-image: -webkit-linear-gradient(top, #f503e5, #8a3784);
+    background-image: -moz-linear-gradient(top, #f503e5, #8a3784);
+    background-image: -ms-linear-gradient(top, #f503e5, #8a3784);
+    background-image: -o-linear-gradient(top, #f503e5, #8a3784);
+    background-image: linear-gradient(to bottom, #f503e5, #8a3784);
     text-decoration: none;
   }
-
 
 
 ul {
@@ -67,11 +63,13 @@ a {
     color: #ffffff;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    flex-shrink: 0;
+.bellalogo {
+    position: relative;
+    left: -220px;
     color: white;
+    height: 120px;
+   width: 120px;
+  
 }
 
 .top {
@@ -80,7 +78,7 @@ a {
     align-items: center;
     padding: 70px 0px 80px 0px;
     font-size: 18px;
-    background-color: #1F2937;
+    background-color: #866683;
     gap: 100px;
 
 }
@@ -88,7 +86,7 @@ a {
 .top-text {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 320px;
 }
 
 h1 {
@@ -123,7 +121,7 @@ h1 {
     border-style: solid;
     border-width: 5px;
     border-radius: 10%;
-    border-color: #3882F6;
+    border-color: #be17ab;
 }
 
 .mid-text-container {
@@ -134,7 +132,7 @@ h1 {
 }
 
 .subtext {
-    max-width: 130px;
+    padding: 0px 30px;
 }
 
 
@@ -150,7 +148,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 100px;
-    margin: 100px 0px;
+    margin: 120px 0px;
 }
 
 .inspiring-quote {
@@ -170,3 +168,53 @@ h1 {
 }
 
 
+.signup {
+   background-color: #be17ab;
+   margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    border-radius: 10px;
+    min-width: 500px;
+   width: 800px;
+   
+}
+.action {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0;
+    
+}
+
+.call-action {
+    padding: 0px 40px;
+}
+
+.call-button {
+    display: flex;
+    align-items: center;
+}
+
+.bts {
+    background-color: #be17ab;
+    border-style: solid;
+    border-color: white; 
+    border-radius: 5px;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-width: 2px;
+    cursor: pointer;
+    margin: 0px 50px;
+}
+
+.trademark {
+    background-color: #1F2937;
+    padding: 30px;
+    flex-shrink: 0;
+    margin-top: 80px;
+    text-align: center;
+  
+}
