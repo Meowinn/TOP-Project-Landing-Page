@@ -4,7 +4,6 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
-
 }
 
 .header {
@@ -14,17 +13,12 @@ body {
     gap: 430px;
     background-color: #866683;
     padding: 20px 0px;
- 
 }
-
-
-
 
 img {
 
     height: 250px;
     width: 420px;
-
 }
 
 .btn {
@@ -51,7 +45,6 @@ img {
     text-decoration: none;
   }
 
-
 ul {
     list-style-type: none;
     display: flex;
@@ -68,8 +61,7 @@ a {
     left: -220px;
     color: white;
     height: 120px;
-   width: 120px;
-  
+   width: 120px;  
 }
 
 .top {
@@ -80,7 +72,6 @@ a {
     font-size: 18px;
     background-color: #866683;
     gap: 100px;
-
 }
 
 .top-text {
@@ -106,16 +97,13 @@ h1 {
     align-items: center;
 }
 
-
 .mid-container {
     display: flex;
    justify-content: center; 
-   gap: 70px;
-   
+   gap: 70px;  
 }
 
 .boxes {
-
     width: 130px;
     height: 130px;
     border-style: solid;
@@ -130,12 +118,9 @@ h1 {
     font-size: 14px;
     gap: 80px;
 }
-
 .subtext {
     padding: 0px 30px;
 }
-
-
 .info-header {
     font-size: 36px;
     font-weight: 800;
@@ -167,7 +152,6 @@ h1 {
     font-size: 20px;
 }
 
-
 .signup {
    background-color: #be17ab;
    margin: auto;
@@ -176,14 +160,12 @@ h1 {
     padding: 30px 50px;
     border-radius: 10px;
     min-width: 500px;
-   width: 800px;
-   
+   width: 800px;   
 }
 .action {
     font-size: 20px;
     font-weight: 900;
     padding: 0;
-    
 }
 
 .call-action {
@@ -216,5 +198,4 @@ h1 {
     flex-shrink: 0;
     margin-top: 80px;
     text-align: center;
-  
 }
